@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AA2</title>
     <link rel="stylesheet" href="./assets/sty.css">
-    <script src="./assets/javas.js"></script>
+    <script src="./assets/javas.js" defer></script>
 </head>
 
 <body>
@@ -14,32 +14,48 @@
     
     <div class="div-header-desktop">
         <div class="logotipo">
-          <h1>Introdução</h1>
-      </div>
+          <h1>EcoRenova</h1>
+        </div>
 
         <nav class="nav-header" aria-label="Menu principal do site">
           <ul class="ul-header">
-          <li><a href="introducao.html" title="Ir para a página de introdução">Introdução</a></li>
-          <li><a href="sobre.html" title="Ir para a página sobre">Sobre</a></li>
-          <li><a href="objetivo.html" title="Ver metas">Metas</a></li>
-          <li><a href="novidades.html" title="Ler as novidades">Novidades</a></li>
-          <li><a href="contato.html" title="Entrar em contato">Contato</a></li>
+          <li><a href="home.php" title="Ir para a página inicial">Home</a></li>
+          <li><a href="sobre.php" title="Ir para a página Quem Somos">Quem Somos</a></li>
+          <li><a href="services.php" title="Ver Serviços">Serviços</a></li>
+          <li><a href="contato.php" title="Ir para a página contato">Contato</a></li>
+          <li><a href="#" title="">Nenhum</a></li>
           </ul>
         </nav>
       </div>
 
       <div class="div-header-mob">
-        
-        <nav class="vertical-menu">
-          <ul class="list-mob">
-            <li><a href="introducao.html" title="Ir para a página de introdução">Introdução</a></li>
-            <li><a href="sobre.html" title="Ir para a página sobre">Sobre</a></li>
-            <li><a href="objetivo.html" title="Ver metas">Metas</a></li>
-            <li><a href="novidades.html" title="Ler as novidades">Novidades</a></li>
-            <li><a href="contato.html" title="Entrar em contato">Contato</a></li>
-          </ul>
-        </nav>
-        
+
+        <div class="logotipo">
+          <h1>EcoRenova</h1>
+        </div>
+
+        <button class="btn-custom">☰</button>
       </div>
 
 </header>
+    <div class="vertical-menu">
+      <div class="box-nav">
+        <nav class="custom-nav">
+            <ul class="list-mob">
+              <li><a href="home.php" title="Ir para a página inicial">Home</a></li>
+              <li><a href="sobre.php" title="Ir para a página Quem Somos">Quem Somos</a></li>
+              <li><a href="services.php" title="Ver Serviços">Serviços</a></li>
+              <li><a href="contato.php" title="Ir para a página contato">Contato</a></li>
+              <li><a href="#" title="">Nenhum</a></li>
+            </ul>
+        </nav>
+        <button class="btn-custom">✖</button>
+      </div>
+    </div>
+
+    <section class="banner">
+      <img src="./assets/ImgBanner.jpg" alt="" width='1300' height='auto'>
+      <div class="banner-content">
+        
+      </div>
+    </section>
