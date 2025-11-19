@@ -54,8 +54,5 @@
     </div>
 
     <section class="banner">
-      <img src="./assets/ImgBanner.jpg" alt="" width='1300' height='auto'>
-      <div class="banner-content">
-        
-      </div>
+      
     </section>

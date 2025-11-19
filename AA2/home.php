@@ -1,8 +1,8 @@
 <?php 
 include_once 'includes/header.php';
 ?>
-<main>
-      <div class="box-main">
+  <main>
+<div class="box-main">
         <section class="section-info" aria-labelledby="Informações importantes">
 
           <div class="custom-box">
@@ -24,37 +24,55 @@ include_once 'includes/header.php';
             </div>
           </div>
 
-          <h2>Áreas de Atuação</h2>
-          <ul>
-            <li>
-              <h3>Reciclagem de Resíduos Sólidos</h3>
-              <p>Processamento de papel, plástico, vidro e metais com alto padrão de qualidade e rastreabilidade.</p>
-            </li>
-            <li>
-              <h3>Coleta e Logística Reversa</h3>
-              <p>Estrutura própria para coleta seletiva industrial, comercial e residencial.</p>
-            </li>
-            <li>
-              <h3>Gestão Integrada de Resíduos</h3>
-              <p>Soluções completas para empresas que buscam adequação à legislação ambiental.</p>
-            </li>
-            <li>
-              <h3>Educação e Conscientização Ambiental</h3>
-              <p>Palestras, workshops e ações sociais para incentivar práticas sustentáveis na comunidade.</p>
-            </li>
-            <li>
-              <h3>Consultoria Ambiental</h3>
-              <p>Auxiliamos empresas a implementar sistemas sustentáveis e reduzir impactos ambientais.</p>
-            </li>
-          </ul>
+          <div class="custom-box">
+            <div class="info-two">
+              <h2>Áreas de Atuação</h2>
+              <ul>
+                <li>
+                  <h3>Reciclagem de Resíduos Sólidos</h3>
+                  <p>Processamento de papel, plástico, vidro e metais com alto padrão de qualidade e rastreabilidade.</p>
+                </li>
+                <li>
+                  <h3>Coleta e Logística Reversa</h3>
+                  <p>Estrutura própria para coleta seletiva industrial, comercial e residencial.</p>
+                </li>
+                <li>
+                  <h3>Gestão Integrada de Resíduos</h3>
+                  <p>Soluções completas para empresas que buscam adequação à legislação ambiental.</p>
+                </li>
+                <li>
+                  <h3>Educação e Conscientização Ambiental</h3>
+                  <p>Palestras, workshops e ações sociais para incentivar práticas sustentáveis na comunidade.</p>
+                </li>
+                <li>
+                  <h3>Consultoria Ambiental</h3>
+                  <p>Auxiliamos empresas a implementar sistemas sustentáveis e reduzir impactos ambientais.</p>
+                </li>
+              </ul>
+              <h2>Compromisso com o Futuro</h2>
+              <p>Na EcoRenova, acreditamos que reciclar é mais que uma necessidade: é uma atitude transformadora. Nosso trabalho é conectar pessoas, empresas e comunidades à construção de um futuro mais limpo, verde e consciente.</p>
+              </div>
+            </div>
+      
 
-          <h2>Compromisso com o Futuro</h2>
-          <p>Na EcoRenova, acreditamos que reciclar é mais que uma necessidade: é uma atitude transformadora. Nosso trabalho é conectar pessoas, empresas e comunidades à construção de um futuro mais limpo, verde e consciente.</p>
-          
+          <div class="custom-box">
+
+              <div class="info-one">
+                <div class="img-mold">
+                  <img src="./assets/heartinhand.jpg" alt="Solo em formato de coração em mãos">
+                </div>
+                
+                <h2>Renovando o presente, preservando o futuro</h2>
+                <p>
+                  Seja você uma empresa, um comerciante, uma instituição ou um cidadão consciente, a EcoRenova está ao seu lado na construção de um futuro mais limpo e responsável. Acreditamos que cada ação — pequena ou grande — pode gerar impacto positivo. Por isso, oferecemos suporte e soluções práticas para todos que desejam adotar hábitos sustentáveis e contribuir para um amanhã mais verde e saudável.
+                </p>
+
+              </div>
+          </div>
+
         </section>
       </div>
     </main>
-
 <?php
 include_once 'includes/footer.php';
 ?>

@@ -22,6 +22,7 @@ h1, h2, h3 {
 }
 
 header{
+    position: fixed;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -113,6 +114,9 @@ header{
 }
 
 .banner {
+    background-image: url('ImgBannerMenor.jpg');
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: 500px;
     display: flex;
@@ -125,13 +129,15 @@ header{
 
 .box-main {
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     margin-top: 10px;
 }
 
 .section-info {
-    width: 50%;
+    max-width: 600px;
+    min-width: 480px;
+    margin: 10px;
 }
 
 .custom-box {
@@ -142,17 +148,30 @@ header{
     margin-bottom: 15px;
 }
 
-.info-one {
+.img-mold {
+    height: 350px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.img-mold img {
+    width: 100%;
+    height: 100%;
+}
+
+.info-one, .info-two {
     text-align: justify;
     line-height: 1.5;
 }
 
-.info-one > p{
+.info-one > p, .info-two > p{
     text-indent: 1em;
     margin-bottom: 10px;
 }
 
-.info-one > h2 {
+.info-one > h2, .info-two > h2{
     text-align: center;
 }
 
@@ -160,6 +179,10 @@ header{
     text-align: center;
     list-style-type: none;
     margin-bottom: 10px;
+}
+
+.info-two ul > li, .info-two ol > li {
+    margin-left: 20px;
 }
 
 /* Resolução PC */
