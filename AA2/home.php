@@ -1,12 +1,12 @@
 <?php 
 include_once 'includes/header.php';
 ?>
-  <main>
+<main>
 <div class="box-main">
-        <section class="section-info" aria-labelledby="Informações importantes">
+        <section class="box-main-triple" aria-labelledby="Informações importantes">
 
-          <div class="custom-box">
-            <div class="info-one">
+          <div class="custom-box box-left-main">
+            <div class="org-text-base">
               <h2>Bem-vindo à EcoRenova</h2>
               <p>A EcoRenova Reciclagem é uma empresa especializada no tratamento, reaproveitamento e destinação sustentável de resíduos sólidos. Atuamos com responsabilidade ambiental, inovação e compromisso social, oferecendo soluções completas para empresas, condomínios e prefeituras.</p>
               <h2>Nossa Missão</h2>
@@ -14,20 +14,20 @@ include_once 'includes/header.php';
               <h2>Nossa Visão</h2>
               <p>Ser reconhecida nacionalmente como a empresa que mais contribui para o avanço da gestão sustentável no Brasil, liderando projetos inovadores que gerem impacto social, econômico e ambiental positivo.</p>
               <h2>Nossos Valores</h2>
-              <ul>
+              <ul class="list-nodecoration">
                 <li><strong>Sustentabilidade:</strong> agir sempre com foco na preservação ambiental.</li>
                 <li><strong>Transparência:</strong> prestação de serviços com ética, clareza e responsabilidade.</li>
                 <li><strong>Inovação:</strong> investir em tecnologia para transformar resíduos em oportunidades.</li>
                 <li><strong>Compromisso Social:</strong> promover iniciativas que envolvam a comunidade.</li>
-                <li><strong>Excelência:</strong> garantir qualidade em todas as etapas da operação.</li>
+                
               </ul>
             </div>
           </div>
 
-          <div class="custom-box">
-            <div class="info-two">
+          <div class="custom-box box-right-main">
+            <div class="org-text-base">
               <h2>Áreas de Atuação</h2>
-              <ul>
+              <ul class="list-ul">
                 <li>
                   <h3>Reciclagem de Resíduos Sólidos</h3>
                   <p>Processamento de papel, plástico, vidro e metais com alto padrão de qualidade e rastreabilidade.</p>
@@ -41,7 +41,7 @@ include_once 'includes/header.php';
                   <p>Soluções completas para empresas que buscam adequação à legislação ambiental.</p>
                 </li>
                 <li>
-                  <h3>Educação e Conscientização Ambiental</h3>
+                  <h3>Conscientização Ambiental</h3>
                   <p>Palestras, workshops e ações sociais para incentivar práticas sustentáveis na comunidade.</p>
                 </li>
                 <li>
@@ -55,11 +55,11 @@ include_once 'includes/header.php';
             </div>
       
 
-          <div class="custom-box">
+          <div class="custom-box box-down-main">
 
-              <div class="info-one">
+              <div class="org-text-base">
                 <div class="img-mold">
-                  <img src="./assets/heartinhand.jpg" alt="Solo em formato de coração em mãos">
+                  <img src="./assets/Imgs/heartinhand.jpg" alt="Solo em formato de coração em mãos">
                 </div>
                 
                 <h2>Renovando o presente, preservando o futuro</h2>
@@ -68,6 +68,7 @@ include_once 'includes/header.php';
                 </p>
 
               </div>
+
           </div>
 
         </section>

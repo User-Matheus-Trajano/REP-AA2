@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 2 em cima + 1 centralizada embaixo</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #dff4e4;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Centraliza os itens em cada linha */
+            gap: 20px; /* Espaço entre as caixas */
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .box {
+            width: 300px;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+            font-size: 17px;
+        }
+
+        /* Caixa 1 e 2 lado a lado */
+        .box1, 
+        .box2 {
+            flex: 1 1 300px;
+            max-width: 400px;
+        }
+
+        /* Caixa 3 centralizada abaixo */
+        .box3 {
+            flex: 1 1 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align:center;">Exemplo de Layout</h1>
+
+    <div class="container">
+
+        <div class="box box1">
+            <h2>Caixa 1</h2>
+            <p>Conteúdo da primeira caixa.</p>
+        </div>
+
+        <div class="box box2">
+            <h2>Caixa 2</h2>
+            <p>Conteúdo da segunda caixa.</p>
+        </div>
+
+        <div class="box box3">
+            <h2>Caixa 3</h2>
+            <p>Esta caixa fica centralizada abaixo das duas primeiras.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

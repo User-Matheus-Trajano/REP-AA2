@@ -21,7 +21,7 @@
           <ul class="ul-header">
           <li><a href="home.php" title="Ir para a página inicial">Home</a></li>
           <li><a href="sobre.php" title="Ir para a página Quem Somos">Quem Somos</a></li>
-          <li><a href="services.php" title="Ver Serviços">Serviços</a></li>
+          <li><a href="servicos.php" title="Ver Serviços">Serviços</a></li>
           <li><a href="contato.php" title="Ir para a página contato">Contato</a></li>
           <li><a href="#" title="">Nenhum</a></li>
           </ul>

@@ -57,6 +57,7 @@ header{
     height: 100%;
 }
 
+
 .no-scroll {
     overflow: hidden
 }
@@ -114,11 +115,11 @@ header{
 }
 
 .banner {
-    background-image: url('ImgBannerMenor.jpg');
+    background-image: url('Imgs/muda4.jpg');
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,13 +135,54 @@ header{
     margin-top: 10px;
 }
 
-.section-info {
-    max-width: 600px;
-    min-width: 480px;
-    margin: 10px;
+.box-main-triple {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    min-width: 500px;
+    padding: 15px;
+    gap: 10px;
 }
 
+/* .section-info {
+    max-width: 500px;
+    min-width: 480px;
+    margin: 10px;
+} */
+
+.box-left-main, .box-right-main {
+    flex: 1 1 450px;
+    max-width: 550px;
+}
+
+.box-down-main {
+    flex: 1 1 400px;
+    max-width: 550px;
+}
+
+.list-ul {
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+.list-ul > li{
+    margin-bottom: 15px;
+}
+
+.list-nodecoration {
+    list-style: none;
+    text-align: center;
+}
+.list-nodecoration > li{
+    margin-bottom: 10px;
+}
+
+
+
+
 .custom-box {
+    width: 500px;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
@@ -161,18 +203,19 @@ header{
     height: 100%;
 }
 
-.info-one, .info-two {
+.org-text-base {
     text-align: justify;
     line-height: 1.5;
 }
 
-.info-one > p, .info-two > p{
+.org-text-base > p {
     text-indent: 1em;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
-.info-one > h2, .info-two > h2{
+.org-text-base > h2 {
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .info-one ul > li {
@@ -181,8 +224,13 @@ header{
     margin-bottom: 10px;
 }
 
-.info-two ul > li, .info-two ol > li {
-    margin-left: 20px;
+
+
+.box-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Resolução PC */
@@ -281,7 +329,7 @@ header{
 /* Main */
 main {
     width: 100%;
-    background-color: #5BC3EB;
+    background-color: #52B788;
     min-height: 100vh;
     padding-top: 10px;
 }
