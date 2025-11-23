@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AA2</title>
-    <link rel="stylesheet" href="./assets/sty.css">
-    <script src="./assets/javas.js" defer></script>
+    <link rel="stylesheet" href="AA2/assets/sty.css">
+    <script src="AA2/assets/javas.js" defer></script>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 
         <nav class="nav-header" aria-label="Menu principal do site">
           <ul class="ul-header">
-          <li><a href="home.php" title="Ir para a página inicial">Home</a></li>
+          <li><a href="index.php" title="Ir para a página inicial">Home</a></li>
           <li><a href="sobre.php" title="Ir para a página Quem Somos">Quem Somos</a></li>
           <li><a href="servicos.php" title="Ver Serviços">Serviços</a></li>
           <li><a href="contato.php" title="Ir para a página contato">Contato</a></li>

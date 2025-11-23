@@ -161,12 +161,12 @@ header{
     max-width: 550px;
 }
 
-.list-ul {
+.list-ul, .list-ol {
     line-height: 1.5;
     margin-left: 20px;
 }
 
-.list-ul > li{
+.list-ul > li, .list-ol > li{
     margin-bottom: 15px;
 }
 
@@ -177,9 +177,6 @@ header{
 .list-nodecoration > li{
     margin-bottom: 10px;
 }
-
-
-
 
 .custom-box {
     width: 500px;
@@ -206,6 +203,7 @@ header{
 .org-text-base {
     text-align: justify;
     line-height: 1.5;
+    font-size: 1.05em;
 }
 
 .org-text-base > p {
