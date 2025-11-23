@@ -145,11 +145,23 @@ header{
     gap: 10px;
 }
 
-/* .section-info {
-    max-width: 500px;
-    min-width: 480px;
-    margin: 10px;
-} */
+.box-main-quad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-width: 500px;
+}
+
+.box-two-elements {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+
 
 .box-left-main, .box-right-main {
     flex: 1 1 450px;
@@ -167,15 +179,27 @@ header{
 }
 
 .list-ul > li, .list-ol > li{
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .list-nodecoration {
     list-style: none;
-    text-align: center;
 }
-.list-nodecoration > li{
-    margin-bottom: 10px;
+
+.box-perfil-quad {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box-perfis {
+    width: 510px;
+    min-width: 480px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 15px;
 }
 
 .custom-box {
@@ -187,8 +211,21 @@ header{
     margin-bottom: 15px;
 }
 
+.moldura-perfil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 360px;
+    margin-bottom: 10px;
+}
+
+.custom-perfil-atribut {
+    width: 360px;
+    text-align: center;
+}
+
 .img-mold {
-    height: 350px;
+    height: 300px;
     width: 100%;
     border-radius: 5px;
     overflow: hidden;
@@ -203,26 +240,17 @@ header{
 .org-text-base {
     text-align: justify;
     line-height: 1.5;
-    font-size: 1.05em;
+    font-size: 1.1em;
 }
 
 .org-text-base > p {
     text-indent: 1em;
-    margin-bottom: 5px;
 }
 
 .org-text-base > h2 {
     text-align: center;
     margin-bottom: 5px;
 }
-
-.info-one ul > li {
-    text-align: center;
-    list-style-type: none;
-    margin-bottom: 10px;
-}
-
-
 
 .box-form {
     display: flex;
@@ -236,7 +264,7 @@ header{
     display: none;
 }
 
-@media (min-width: 780px){
+@media (min-width: 900px){
     
 .div-header-mob{
     display: none;
@@ -247,6 +275,11 @@ header{
     justify-content: center;
     width: 90%;
     max-width: 1300px;
+}
+
+.box-perfis {
+    width: 900px;
+    max-width: 950px;
 }
 
 .logotipo {
@@ -281,6 +314,8 @@ header{
     color: white;
     text-decoration: none;
 }
+
+
 }
 
 /* Diversos */
