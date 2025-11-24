@@ -1,6 +1,7 @@
 <?php 
 include_once 'AA2/includes/header.php';
 ?>
+
 <main>
 <div class="box-main">
         <section class="box-main-triple" aria-labelledby="Informações importantes">

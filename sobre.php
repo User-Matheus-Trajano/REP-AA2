@@ -11,7 +11,6 @@ include_once 'AA2/includes/header.php';
                     <p>A EcoRenova nasceu com a missão de transformar a gestão de resíduos em um processo eficiente, sustentável e acessível. Nossa equipe reúne profissionais apaixonados pela causa ambiental, comprometidos em criar soluções que unam tecnologia, educação e responsabilidade social. Ao longo dos anos, evoluímos para nos tornar uma referência em reciclagem e conscientização ecológica.</p>
                 </div>
             </div>
-
            
 
             <div class="box-two-elements">

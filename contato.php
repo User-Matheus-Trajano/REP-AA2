@@ -20,7 +20,7 @@ include_once 'AA2/includes/header.php';
                     </div>
                 </form>
             
-            <a href="https://github.com/User-Matheus-Trajano/REP-AA2.git" class="link-com-icone">
+            <a href="https://github.com/User-Matheus-Trajano/REP-AA2" class="link-com-icone">
             <img src="AA2/assets/Imgs/github.png" alt="Icone">Repositório do Site</a>
             </div>
         </section>
