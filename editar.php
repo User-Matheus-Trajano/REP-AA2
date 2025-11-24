@@ -20,32 +20,30 @@ if (!isset($dados[$id])) {
 list($nome, $descricao, $tecnologia, $valor) = explode("|", $dados[$id]);
 ?>
 
-<?php include_once 'includes/header.php'; ?>
+<?php include_once 'AA2/includes/header.php'; ?>
 
 <main>
     <div class="box-main">
-        <section class="section-info">
+        <section class="box-section-servico">
 
-            <div class="custom-box">
-                <h2>Editar serviço</h2>
-
-                <form method="POST" action="salvar-edicao.php">
-                    <input type="hidden" name="id" value="<?= $id ?>">
-
-                    <label>Nome do serviço:</label><br>
-                    <input type="text" name="nome" value="<?= htmlspecialchars($nome) ?>" required><br><br>
-
-                    <label>Descrição:</label><br>
-                    <textarea name="descricao" required><?= htmlspecialchars($descricao) ?></textarea><br><br>
-
-                    <label>Tecnologia usada:</label><br>
-                    <input type="text" name="tecnologia" value="<?= htmlspecialchars($tecnologia) ?>" required><br><br>
-
-                    <label>Valor estimado:</label><br>
-                    <input type="number" step="0.01" name="valor" value="<?= htmlspecialchars($valor) ?>" required><br><br>
-
-                    <button type="submit">Salvar Alterações</button>
-                </form>
+            <div class="box-cad-form">
+                <div class="box-form-editar">
+                    <h2>Editar serviço</h2>
+                    <form method="POST" action="salvar-edicao.php" class="custom-form">
+                        <input type="hidden" name="id" value="<?= $id ?>">
+                        <label>Nome do serviço:</label><br>
+                        <input type="text" name="nome" value="<?= htmlspecialchars($nome) ?>" required>
+                        <label>Descrição:</label><br>
+                        <textarea name="descricao" required><?= htmlspecialchars($descricao) ?></textarea>
+                        <label>Tecnologia usada:</label><br>
+                        <input type="text" name="tecnologia" value="<?= htmlspecialchars($tecnologia) ?>" required>
+                        <label>Valor estimado:</label><br>
+                        <input type="number" step="0.01" name="valor" value="<?= htmlspecialchars($valor) ?>" required>
+                        <div class="custom-btn">
+                            <input type="submit" value="Salvar">
+                        </div>
+                                 </form>
+                </div>
             </div>
 
         </section>

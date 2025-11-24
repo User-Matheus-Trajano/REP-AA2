@@ -23,7 +23,7 @@
           <li><a href="sobre.php" title="Ir para a página Quem Somos">Quem Somos</a></li>
           <li><a href="servicos.php" title="Ver Serviços">Serviços</a></li>
           <li><a href="contato.php" title="Ir para a página contato">Contato</a></li>
-          <li><a href="#" title="">Nenhum</a></li>
+          <li><a href="faq.php" title="Ir para a página de Perguntas Frequentes">FAQ</a></li>
           </ul>
         </nav>
       </div>
@@ -42,11 +42,11 @@
       <div class="box-nav">
         <nav class="custom-nav">
             <ul class="list-mob">
-              <li><a href="home.php" title="Ir para a página inicial">Home</a></li>
+              <li><a href="index.php" title="Ir para a página inicial">Home</a></li>
               <li><a href="sobre.php" title="Ir para a página Quem Somos">Quem Somos</a></li>
-              <li><a href="services.php" title="Ver Serviços">Serviços</a></li>
+              <li><a href="servicos.php" title="Ver Serviços">Serviços</a></li>
               <li><a href="contato.php" title="Ir para a página contato">Contato</a></li>
-              <li><a href="#" title="">Nenhum</a></li>
+              <li><a href="faq.php" title="">FAQ</a></li>
             </ul>
         </nav>
         <button class="btn-custom">✖</button>

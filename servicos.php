@@ -4,9 +4,9 @@ include_once 'AA2/includes/header.php';
 
 <main>
         <div class="box-main">
-            <section class="section-info">
+            <section class="box-section-servico">
 
-            <div class="custom-box">
+            <div class="box-tabela">
                 <h2>Lista de serviços cadastrados</h2>
 
 <?php
@@ -16,7 +16,7 @@ if (file_exists($arquivo)) {
     $dados = file($arquivo, FILE_IGNORE_NEW_LINES);
 
     if (count($dados) > 0) {
-        echo "<table border='1' cellpadding='8'>";
+        echo "<table class='tabela-servicos'>";
         echo "<tr>
                 <th>Nome</th>
                 <th>Descrição</th>
@@ -33,8 +33,8 @@ if (file_exists($arquivo)) {
                     <td>$descricao</td>
                     <td>$tecnologia</td>
                     <td>$valor</td>
-                    <td>
-                        <a href='editar.php?id=$index'>Editar</a> | 
+                    <td class='acoes'>
+                        <a href='editar.php?id=$index'>Editar</a>
                         <a href='excluir.php?id=$index' onclick=\"return confirm('Tem certeza que deseja excluir?');\">
                             Excluir
                         </a>
@@ -51,21 +51,23 @@ if (file_exists($arquivo)) {
 }
 ?>
 
-            </div>
+        </div>
 
-            <div class="custom-box">
-                <div class="box-form">
+            <div class="box-cad-form">
+                <div class="box-form-servico">
                     <h2>Cadastrar novo serviço</h2>
-                    <form method="POST" action="salvar.php">
-                        <label>Nome do serviço:</label><br>
-                        <input type="text" name="nome" required><br><br>
-                        <label>Descrição:</label><br>
-                        <textarea name="descricao" required></textarea><br><br>
-                        <label>Tecnologia usada:</label><br>
-                        <input type="text" name="tecnologia" required><br><br>
-                        <label>Valor estimado:</label><br>
-                        <input type="number" name="valor" step="0.01" required><br><br>
-                        <button type="submit">Salvar</button>
+                    <form method="POST" action="salvar.php" class="custom-form">
+                        <label>Nome do serviço:</label>
+                        <input type="text" name="nome" required>
+                        <label>Descrição:</label>
+                        <textarea name="descricao" required></textarea>
+                        <label>Tecnologia usada:</label>
+                        <input type="text" name="tecnologia" required>
+                        <label>Valor estimado:</label>
+                        <input type="number" name="valor" step="0.01" required>
+                        <div class="custom-btn">
+                            <input type="submit" value="Cadastrar">
+                        </div>
                     </form>
                 </div>   
             </div>
